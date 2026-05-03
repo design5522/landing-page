@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Kiwi | 자연이 빚은 붉은 보석</title>
+    <meta name="description" content="루비 키위 - 일반 키위보다 달콤하고 영양가가 높은 프리미엄 레드 키위. 지금 그 특별한 맛을 경험하세요.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">RUBY<span>KIWI</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home" id="nav-home">홈페이지</a></li>
+                    <li><a href="#products" id="nav-products">제품</a></li>
+                    <li><a href="#story" id="nav-story">스토리</a></li>
+                    <li><a href="#contact" id="nav-contact">문의</a></li>
+                </ul>
+                <div style="display: flex; gap: 1rem; align-items: center;">
+                    <button id="lang-toggle" class="cta-btn" style="background: transparent; border: 1px solid var(--glass-border); padding: 0.5rem 1rem;">EN</button>
+                    <a href="#buy" class="cta-btn" id="nav-buy">구매하기</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-tag" id="hero-tag">Ruby Kiwi Premium</span>
+                    <h1 id="hero-h1">맛의 혁명,<br><span>루비 키위</span>의 유혹</h1>
+                    <p id="hero-p">일반 키위에서는 느낄 수 없는 깊은 달콤함과 풍부한 영양. 자연이 빚은 붉은 보석, 루비 키위로 특별한 미각의 세계를 경험하세요.</p>
+                    <div class="hero-btns">
+                        <a href="#buy" class="cta-btn" id="hero-buy">지금 구매하기</a>
+                        <a href="#story" class="cta-btn secondary" id="hero-story">스토리 보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="features">
+            <div class="container">
+                <div class="section-title">
+                    <span class="hero-tag" id="features-tag">Ruby Selection</span>
+                    <h2 id="features-h2">루비 키위의 특별한 제안</h2>
+                </div>
+                <div class="grid">
+                    <div class="feature-card">
+                        <span class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+                        </span>
+                        <h3 id="feature-1-h3">압도적인 달콤함</h3>
+                        <p id="feature-1-p">일반 키위보다 높은 당도와 산미의 완벽한 조화. 입안 가득 퍼지는 베리 향의 풍미를 느껴보세요.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);"><path d="M6 3h12l4 6-10 13L2 9z"></path><path d="M11 3l-4 6 7 11"></path><path d="M13 3l4 6-7 11"></path><path d="M2 9h20"></path></svg>
+                        </span>
+                        <h3 id="feature-2-h3">신비로운 붉은 과육</h3>
+                        <p id="feature-2-p">천연 색소인 안토시아닌이 빚어낸 붉은 빛깔. 식탁 위를 화려하게 장식할 보석 같은 과일입니다.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M12 6v6l4 2"></path></svg>
+                        </span>
+                        <h3 id="feature-3-h3">시즌 한정의 희소성</h3>
+                        <p id="feature-3-p">일 년 중 짧은 기간에만 수확되는 루비 키위. 가장 신선한 최적의 시기에만 만날 수 있는 특별함입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="story" class="story-section">
+            <div class="container">
+                <div class="story-grid">
+                    <div class="story-image">
+                        <img src="images/2026-05-03 161839.png" alt="Ruby Kiwi Macro">
+                    </div>
+                    <div class="story-text">
+                        <span class="hero-tag" id="story-tag">Our Story</span>
+                        <h2 id="story-h2">자연이 빚은<br>건강한 예술품</h2>
+                        <p id="story-p">루비 키위는 단순한 과일이 아닙니다. 엄격한 품질 관리와 최적의 재배 환경에서 탄생한 프리미엄 레드 키위의 정수를 만나보세요. 붉은 과육 속에 숨겨진 깊은 풍미가 당신의 일상에 특별함을 선사합니다.</p>
+                        <a href="#buy" class="cta-btn secondary" id="story-btn">스토리 더보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase">
+            <div class="container">
+                <div class="showcase-banner">
+                    <img src="images/2026-05-03 163644.png" alt="Ruby Kiwi Premium Collection">
+                    <div class="showcase-overlay">
+                        <h3 id="showcase-h3">Premium Collection</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" style="padding: 10rem 0; background: var(--dark);">
+            <div class="container">
+                <div style="max-width: 800px; margin: 0 auto; background: var(--glass); padding: 5rem; border-radius: 40px; border: 1px solid var(--glass-border);">
+                    <div class="section-title">
+                        <span class="hero-tag" id="contact-tag">Get in Touch</span>
+                        <h2 id="contact-h2">궁금한 점이 있으신가요?</h2>
+                        <p id="contact-p" style="opacity: 0.7; margin-top: 1rem;">루비 키위 대량 구매 및 협업 문의는 아래 양식을 통해 남겨주세요.</p>
+                    </div>
+                    <form style="display: grid; gap: 1.5rem; margin-top: 3rem;">
+                        <input type="text" id="input-name" placeholder="성함 / 업체명" style="padding: 1.5rem; border-radius: 12px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white;">
+                        <input type="email" id="input-email" placeholder="이메일 주소" style="padding: 1.5rem; border-radius: 12px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white;">
+                        <textarea id="input-message" placeholder="문의 내용" rows="5" style="padding: 1.5rem; border-radius: 12px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white; resize: none;"></textarea>
+                        <button type="submit" class="cta-btn" id="contact-submit" style="border: none; cursor: pointer;">문의하기</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="buy" style="padding: 10rem 0; text-align: center; background: linear-gradient(to top, var(--dark), #1a0a0a);">
+            <div class="container">
+                <h2 style="font-size: 4rem; margin-bottom: 2rem;" id="buy-h2">식탁 위의 작은 사치, <br><span id="buy-span">루비 키위</span></h2>
+                <p style="margin-bottom: 3rem; opacity: 0.8; font-size: 1.2rem;" id="buy-p">지금 바로 가장 신선한 프리미엄 루비 키위를 주문하세요.</p>
+                <a href="#" class="cta-btn" id="buy-btn" style="padding: 1.5rem 4rem; font-size: 1.2rem;">지금 쇼핑하기</a>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 4rem 0; border-top: 1px solid var(--glass-border); opacity: 0.6; text-align: center; font-size: 0.9rem;">
+        <div class="container">
+            <p id="footer-p">&copy; 2026 Ruby Kiwi Premium. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const translations = {
+            ko: {
+                navHome: "홈페이지",
+                navProducts: "제품",
+                navStory: "스토리",
+                navContact: "문의",
+                navBuy: "구매하기",
+                heroTag: "Ruby Kiwi Premium",
+                heroH1: "맛의 혁명,<br><span>루비 키위</span>의 유혹",
+                heroP: "일반 키위에서는 느낄 수 없는 깊은 달콤함과 풍부한 영양. 자연이 빚은 붉은 보석, 루비 키위로 특별한 미각의 세계를 경험하세요.",
+                heroBuy: "지금 구매하기",
+                heroStory: "스토리 보기",
+                featuresTag: "Ruby Selection",
+                featuresH2: "루비 키위의 특별한 제안",
+                feature1H3: "압도적인 달콤함",
+                feature1P: "일반 키위보다 높은 당도와 산미의 완벽한 조화. 입안 가득 퍼지는 베리 향의 풍미를 느껴보세요.",
+                feature2H3: "신비로운 붉은 과육",
+                feature2P: "천연 색소인 안토시아닌이 빚어낸 붉은 빛깔. 식탁 위를 화려하게 장식할 보석 같은 과일입니다.",
+                feature3H3: "시즌 한정의 희소성",
+                feature3P: "일 년 중 짧은 기간에만 수확되는 루비 키위. 가장 신선한 최적의 시기에만 만날 수 있는 특별함입니다.",
+                storyTag: "Our Story",
+                storyH2: "자연이 빚은<br>건강한 예술품",
+                storyP: "루비 키위는 단순한 과일이 아닙니다. 엄격한 품질 관리와 최적의 재배 환경에서 탄생한 프리미엄 레드 키위의 정수를 만나보세요. 붉은 과육 속에 숨겨진 깊은 풍미가 당신의 일상에 특별함을 선사합니다.",
+                storyBtn: "스토리 더보기",
+                contactTag: "Get in Touch",
+                contactH2: "궁금한 점이 있으신가요?",
+                contactP: "루비 키위 대량 구매 및 협업 문의는 아래 양식을 통해 남겨주세요.",
+                inputName: "성함 / 업체명",
+                inputEmail: "이메일 주소",
+                inputMessage: "문의 내용",
+                contactSubmit: "문의하기",
+                buyH2: "식탁 위의 작은 사치, <br><span>루비 키위</span>",
+                buyP: "지금 바로 가장 신선한 프리미엄 루비 키위를 주문하세요.",
+                buyBtn: "지금 쇼핑하기",
+                footerP: "&copy; 2026 Ruby Kiwi Premium. All Rights Reserved."
+            },
+            en: {
+                navHome: "Home",
+                navProducts: "Products",
+                navStory: "Story",
+                navContact: "Contact",
+                navBuy: "Buy Now",
+                heroTag: "Ruby Kiwi Premium",
+                heroH1: "Flavor Revolution,<br><span>Ruby Kiwi</span> Temptation",
+                heroP: "Deep sweetness and rich nutrition you won't find in regular kiwis. Experience a special world of taste with Ruby Kiwi, a red jewel crafted by nature.",
+                heroBuy: "Shop Now",
+                heroStory: "View Story",
+                featuresTag: "Ruby Selection",
+                featuresH2: "Special Offers of Ruby Kiwi",
+                feature1H3: "Overwhelming Sweetness",
+                feature1P: "The perfect balance of higher sugar content and acidity. Feel the flavor of berries filling your mouth.",
+                feature2H3: "Mysterious Red Flesh",
+                feature2P: "Red color created by anthocyanin, a natural pigment. A jewel-like fruit that will brilliantly decorate your table.",
+                feature3H3: "Seasonal Scarcity",
+                feature3P: "Ruby kiwis are harvested only for a short period each year. Experience the specialty available only at the freshest, optimal time.",
+                storyTag: "Our Story",
+                storyH2: "Healthy Artwork<br>Crafted by Nature",
+                storyP: "Ruby Kiwi is not just a fruit. Experience the essence of premium red kiwi, born from strict quality control and optimal cultivation environments. The deep flavor hidden in the red flesh brings something special to your daily life.",
+                storyBtn: "Read More",
+                contactTag: "Get in Touch",
+                contactH2: "Any Questions?",
+                contactP: "Please leave your inquiries for bulk purchases and collaborations using the form below.",
+                inputName: "Name / Company",
+                inputEmail: "Email Address",
+                inputMessage: "Your Message",
+                contactSubmit: "Send Inquiry",
+                buyH2: "A Small Luxury on Your Table, <br><span>Ruby Kiwi</span>",
+                buyP: "Order the freshest premium Ruby Kiwis right now.",
+                buyBtn: "Shop Now",
+                footerP: "&copy; 2026 Ruby Kiwi Premium. All Rights Reserved."
+            }
+        };
+
+        let currentLang = 'ko';
+        const langToggle = document.getElementById('lang-toggle');
+
+        function updateLanguage() {
+            const data = translations[currentLang];
+            document.getElementById('nav-home').textContent = data.navHome;
+            document.getElementById('nav-products').textContent = data.navProducts;
+            document.getElementById('nav-story').textContent = data.navStory;
+            document.getElementById('nav-contact').textContent = data.navContact;
+            document.getElementById('nav-buy').textContent = data.navBuy;
+            document.getElementById('hero-tag').textContent = data.heroTag;
+            document.getElementById('hero-h1').innerHTML = data.heroH1;
+            document.getElementById('hero-p').textContent = data.heroP;
+            document.getElementById('hero-buy').textContent = data.heroBuy;
+            document.getElementById('hero-story').textContent = data.heroStory;
+            document.getElementById('features-tag').textContent = data.featuresTag;
+            document.getElementById('features-h2').textContent = data.featuresH2;
+            document.getElementById('feature-1-h3').textContent = data.feature1H3;
+            document.getElementById('feature-1-p').textContent = data.feature1P;
+            document.getElementById('feature-2-h3').textContent = data.feature2H3;
+            document.getElementById('feature-2-p').textContent = data.feature2P;
+            document.getElementById('feature-3-h3').textContent = data.feature3H3;
+            document.getElementById('feature-3-p').textContent = data.feature3P;
+            document.getElementById('story-tag').textContent = data.storyTag;
+            document.getElementById('story-h2').innerHTML = data.storyH2;
+            document.getElementById('story-p').textContent = data.storyP;
+            document.getElementById('story-btn').textContent = data.storyBtn;
+            document.getElementById('contact-tag').textContent = data.contactTag;
+            document.getElementById('contact-h2').textContent = data.contactH2;
+            document.getElementById('contact-p').textContent = data.contactP;
+            document.getElementById('input-name').placeholder = data.inputName;
+            document.getElementById('input-email').placeholder = data.inputEmail;
+            document.getElementById('input-message').placeholder = data.inputMessage;
+            document.getElementById('contact-submit').textContent = data.contactSubmit;
+            document.getElementById('buy-h2').innerHTML = data.buyH2;
+            document.getElementById('buy-p').textContent = data.buyP;
+            document.getElementById('buy-btn').textContent = data.buyBtn;
+            document.getElementById('footer-p').innerHTML = data.footerP;
+
+            langToggle.textContent = currentLang === 'ko' ? 'EN' : 'KO';
+        }
+
+        langToggle.addEventListener('click', () => {
+            currentLang = currentLang === 'ko' ? 'en' : 'ko';
+            updateLanguage();
+        });
+    </script>
+</body>
+</html>
